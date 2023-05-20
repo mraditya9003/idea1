@@ -1,0 +1,96 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #F0F0F0;
+  color: #333333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero {
+  padding: 100px;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF6B6B;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #FF4F4F;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature i {
+  font-size: 48px;
+  color: #FF6B6B;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #555555;
+}
+
+.App-footer {
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+ 
